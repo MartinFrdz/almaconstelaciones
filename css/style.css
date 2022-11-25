@@ -2,3 +2,33 @@
   width: 3rem;
   height: 3rem;
 }
+
+.principal {
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.1)),
+    url("../img/pexels-johannes-plenio-1632790.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: white;
+}
+
+.cards {
+  border: none;
+  box-shadow: 0 1rem 3rem rgba(black, 0.175);
+}
+
+.fst-italic {
+  padding-bottom: 1rem;
+}
+
+.btn:hover {
+  background-color: white;
+  color: green;
+}
+
+.whatsapp:hover {
+  background-color: green;
+  color: white;
+}
