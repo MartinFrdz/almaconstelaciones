@@ -6,7 +6,7 @@
 .principal {
   background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.1)),
     url("../img/pexels-johannes-plenio-1632790.jpg");
-  height: 50%;
+  height: 80vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -80,14 +80,13 @@ footer {
 .redes {
   color: white;
   text-align: center;
-  font-size: 1.4rem;
   text-decoration: none;
   padding: 1rem;
 }
 
 .iconosredes i {
   padding: 0.5rem 0.5rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .iconosredes i:hover {
