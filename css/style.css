@@ -41,7 +41,7 @@
   background-color: white;
 }
 
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {
   .carousel {
     width: 60%;
   }
@@ -49,11 +49,10 @@
   .agenda__calendario {
     width: 60%;
   }
-  .proximo {
-    width: 60%;
-  }
+}*/
+.agenda__section {
+  height: 100vh;
 }
-
 .agenda {
   text-align: center;
   display: flex;
