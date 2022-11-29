@@ -50,9 +50,7 @@
     width: 60%;
   }
 }*/
-.agenda__section {
-  height: 100vh;
-}
+
 .agenda {
   text-align: center;
   display: flex;
