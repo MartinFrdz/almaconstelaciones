@@ -1,0 +1,18 @@
+.agenda {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.agenda__calendario {
+  color: white;
+  background-color: #44a678;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 45);
+  font-size: 1rem;
+  justify-content: center;
+}
+
+.agenda__reserva {
+  padding: 1rem;
+  margin-top: 2rem;
+}

@@ -4,7 +4,8 @@
 }
 
 .principal {
-  background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.1)), url("../img/pexels-johannes-plenio-1632790.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.1)),
+    url("../img/pexels-johannes-plenio-1632790.jpg");
   height: 80vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -32,11 +33,11 @@
 }
 
 /*FOOTER*/
+
 footer {
   background-color: #0d0d0d;
   grid-area: footer;
 }
-
 .redes {
   color: white;
   text-align: center;
@@ -47,9 +48,9 @@ footer {
 .iconosredes i {
   padding: 0.5rem 0.5rem;
   font-size: 1.5rem;
-}
-.iconosredes i i:hover {
-  opacity: 0.5;
+  i:hover {
+    opacity: 0.5;
+  }
 }
 
 .copyright {
@@ -57,49 +58,19 @@ footer {
   text-align: center;
   font-weight: 400;
   text-decoration: none;
-}
-.copyright a {
-  color: white;
-  text-align: center;
-  font-weight: 400;
-  text-decoration: none;
-}
-.copyright a:hover {
-  color: #b6f2ec;
-  text-decoration: underline;
+  a {
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #b6f2ec;
+    text-decoration: underline;
+  }
 }
 
 .icono {
   padding: 0.5rem 0.5rem;
   font-size: 3rem;
 }
-
-.cards {
-  border: none;
-  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
-}
-
-.objetivo {
-  color: green;
-}
-
-.agenda {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-}
-
-.agenda__calendario {
-  color: white;
-  background-color: #44a678;
-  box-shadow: 0 0 5px 0 rgb(0, 0, 0);
-  font-size: 1rem;
-  justify-content: center;
-}
-
-.agenda__reserva {
-  padding: 1rem;
-  margin-top: 2rem;
-}
-
-/*# sourceMappingURL=style.css.map */
