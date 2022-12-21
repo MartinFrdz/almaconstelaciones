@@ -81,6 +81,11 @@ footer {
   opacity: 80%;
 }
 
+@media (min-width: 768px) {
+  .principal {
+    height: 85vh;
+  }
+}
 .cards {
   border: none;
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);

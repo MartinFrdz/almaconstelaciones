@@ -81,3 +81,9 @@ footer {
 .redes__icon:hover {
   opacity: 80%;
 }
+
+@media (min-width: 768px) {
+  .principal {
+    height: 85vh;
+  }
+}
